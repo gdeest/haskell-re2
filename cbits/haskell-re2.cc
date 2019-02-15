@@ -3,8 +3,8 @@
 #include <cstddef>
 #include <cstdlib>
 
-#include <re2/re2.h>
-#include <re2/set.h>
+#include "re2/re2.h"
+#include "re2/set.h"
 
 #define HSRE2_MALLOC(type, count) static_cast<type*>(malloc(sizeof(type)*count))
 
